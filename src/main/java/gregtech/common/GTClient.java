@@ -121,7 +121,7 @@ import paulscode.sound.SoundSystemException;
 
 public class GTClient extends GTProxy implements Runnable {
 
-    public static final String GTNH_CAPE_LIST_URL = "https://raw.githubusercontent.com/akirapriva/cape-hook/refs/heads/main/capes.txt";
+    public static final String GTNH_CAPE_LIST_URL = "https://raw.githubusercontent.com/GTNewHorizons/CustomGTCapeHook-Cape-List/refs/heads/master/capes.txt";
     public static final String GT_CAPE_LIST_URL = "http://gregtech.overminddl1.com/com/gregoriust/gregtech/supporterlist.txt";
     private static final List<Block> ROTATABLE_VANILLA_BLOCKS;
 

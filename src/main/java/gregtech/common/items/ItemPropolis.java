@@ -118,14 +118,16 @@ public class ItemPropolis extends Item {
     }
 
     public void addProcessEV(ItemStack tPropolis, ItemStack aOutput2) {
-        GTValues.RA.stdBuilder()
-            .itemInputs(tPropolis)
-            .itemOutputs(aOutput2)
-            .outputChances(2500)
-            .fluidOutputs(FluidRegistry.getFluidStack("endergoo", 200))
-            .duration(5 * SECONDS)
-            .eut(TierEU.RECIPE_EV)
-            .addTo(fluidExtractionRecipes);
+        if (NewHorizonsCoreMod.isModLoaded()) {
+            GTValues.RA.stdBuilder()
+                .itemInputs(tPropolis)
+                .itemOutputs(aOutput2)
+                .outputChances(2500)
+                .fluidOutputs(FluidRegistry.getFluidStack("endergoo", 200))
+                .duration(5 * SECONDS)
+                .eut(TierEU.RECIPE_EV)
+                .addTo(fluidExtractionRecipes);
+        }
     }
 
     public void addProcessIV(ItemStack tPropolis, ItemStack aOutput2) {

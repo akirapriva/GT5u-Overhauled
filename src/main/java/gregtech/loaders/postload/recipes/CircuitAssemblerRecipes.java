@@ -1,7 +1,6 @@
 package gregtech.loaders.postload.recipes;
 
 import static gregtech.api.enums.Mods.Forestry;
-import static gregtech.api.enums.Mods.NewHorizonsCoreMod;
 import static gregtech.api.enums.Mods.Railcraft;
 import static gregtech.api.recipe.RecipeMaps.circuitAssemblerRecipes;
 import static gregtech.api.util.GTModHandler.getModItem;
@@ -180,7 +179,7 @@ public class CircuitAssemblerRecipes implements Runnable {
             GTOreDictUnificator.get(OrePrefixes.stickLong, Materials.Iron, 2L),
             GTOreDictUnificator.get(OrePrefixes.stickLong, Materials.Gold, 2L),
             GTOreDictUnificator.get(OrePrefixes.stickLong, Materials.Diamond, 2L),
-            getModItem(NewHorizonsCoreMod.ID, "item.LongObsidianRod", 2L, 0),
+            // getModItem(NewHorizonsCoreMod.ID, "item.LongObsidianRod", 2L, 0),
             GTOreDictUnificator.get(OrePrefixes.stickLong, Materials.Blaze, 2L),
             GTOreDictUnificator.get(OrePrefixes.stickLong, Materials.Rubber, 2L),
             GTOreDictUnificator.get(OrePrefixes.stickLong, Materials.Emerald, 2L),
